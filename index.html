@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valeur par defaut</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      img {
+        max-width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat quod
+      itaque ullam vitae amet ipsa quos voluptatem odit eum laudantium.
+    </p>
+    <p class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia
+      doloremque aperiam cum nihil provident illo similique? Inventore, ullam
+      ut.
+    </p>
+
+    <!-- lien -->
+
+    <a href="#">exemple lien </a>
+    <ul>
+      <li>Premier</li>
+      <li>second</li>
+      <li>Troisieme item</li>
+    </ul>
+
+    <!-- Image -->
+
+    <img
+      src="./boxed-water-is-better-9EdFe3Dahuk-unsplash.jpg"
+      alt=""
+      class="img"
+    />
+
+    <!-- buttons -->
+    <button class="btn" type="button">bouton régulier</button>
+    <button class="btn btn-hipster">bouton btn-hipster</button>
+
+    <!-- alertes -->
+    <div class="alert alert-success">salut depuis succés</div>
+    <div class="alert alert-danger">salut depuis danger</div>
+
+    <!-- formulaire -->
+
+    <form class="form">
+      <h4>formulaire de contact</h4>
+      <!-- nom -->
+      <div class="row">
+        <label for="name" class="form-label">nom</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="John"
+          class="form-input"
+        />
+      </div>
+      <!-- nombre -->
+      <div class="row">
+        <label for="age" class="form-label">Age</label>
+        <input type="number" name="age" id="age" class="form-input" />
+      </div>
+      <!-- email -->
+      <div class="row">
+        <label for="email" class="form-label">email</label>
+        <input type="email" name="email" id="email" class="form-input" />
+        <small class="form-alert"> veuillez fournir une valeur </small>
+      </div>
+      <!-- zone text -->
+      <div class="row">
+        <label for="message" class="form-label">message</label>
+        <textarea name="message" id="message" class="form-textarea">
+        valeur par defaut
+      </textarea
+        >
+      </div>
+      <!-- soumettre -->
+      <button type="submit" class="btn btn-block">Envoyer</button>
+    </form>
+
+    <!-- chargement -->
+    <div class="loading"></div>
+
+    <!-- titre -->
+    <div class="title">
+      <h2>titre de la section</h2>
+      <div class="text-underline"></div>
+    </div>
+  </body>
+</html>
